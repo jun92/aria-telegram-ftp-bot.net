@@ -11,7 +11,7 @@ public class TelegramHandlerService
     private CancellationTokenSource _cts;
     public TelegramHandlerService()
     {
-        _client = new TelegramBotClient("");
+        _client = new TelegramBotClient(Environment.GetEnvironmentVariable("TELEGRAM_API_KEY"));
         
     }
     public void Initialize(CancellationToken token)

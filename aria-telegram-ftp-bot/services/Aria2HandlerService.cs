@@ -8,15 +8,19 @@ public class Aria2HandlerService
 {
     private readonly Aria2NetClient _aria2NetClient;
     private string test_gid;
+    private string DefaultDownloadDir;
     public Aria2HandlerService()
     {
-        _aria2NetClient = new Aria2NetClient("http://localhost:8210/jsonrpc", "1234");
+        DefaultDownloadDir = Environment.GetEnvironmentVariable("DOWNLOAD_DIR");
+        string port = Environment.GetEnvironmentVariable("ARIA2_PORT");
+        string secret = Environment.GetEnvironmentVariable("ARIA2_SECRET");
+        _aria2NetClient = new Aria2NetClient($"http://localhost:{port}/jsonrpc", secret);
     }
     public async Task AddQueue(string link)
     {
         string mid = Guid.NewGuid().ToString();
         string result = await _aria2NetClient.AddUriAsync(new List<string>{ "magnet:?xt=urn:btih:86226b41985a245ac0c9a8946e1e6d6643ff64f3"}, new Dictionary<string, object>{
-            { "dir", $"X:/Temp/{mid}/"}
+            { "dir", $"{DefaultDownloadDir}/{mid}"}
         }, 0);
         Console.WriteLine(result);
         test_gid = result;
