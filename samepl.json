@@ -1,0 +1,41 @@
+{
+    "bitfield": "efffff9ffffffffdffffbfeffffffbffffffbffffffffffffedfffefffffffffffffffefffff7fffbf7fff77dfff7fffffeeff5bf3ffffffbffffedfdfffa7fbffffffffffedfffffffffbff7ffffffff7d7fffff7ffffdffff3fdf6dfff7ffffbffffefffffffffefffffffffffffefffffffffff5ffdfffffdfff77ffff0",
+    "bittorrent": {
+        "announceList": [],
+        "comment": null,
+        "creationDate": 0,
+        "info": { "name": "gimp-2.10.32-setup-1.exe" },
+        "mode": "single",
+        "verifiedLength": 0,
+        "verifyIntegrityPending": false
+    },
+    "completedLength": 250455976,
+    "connections": 36,
+    "dir": "X:/Temp",
+    "downloadSpeed": 8344898,
+    "files": [
+        {
+            "completedLength": 249554856,
+            "index": 1,
+            "length": 265283496,
+            "path": "X:/Temp/gimp-2.10.32-setup-1.exe",
+            "selected": true,
+            "uris": []
+        }
+    ],
+    "gid": "a4d1582559069585",
+    "infoHash": "86226b41985a245ac0c9a8946e1e6d6643ff64f3",
+    "numPieces": 1012,
+    "numSeeders": 6,
+    "pieceLength": 262144,
+    "seeder": false,
+    "status": "active",
+    "totalLength": 265283496,
+    "uploadLength": 0,
+    "uploadSpeed": 0,
+    "errorCode": null,
+    "errorMessage": null,
+    "belongsTo": null,
+    "followedBy": null,
+    "following": "af10e4eb68318ead"
+}
