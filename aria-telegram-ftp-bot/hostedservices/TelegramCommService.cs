@@ -5,7 +5,11 @@ public class TelegramCommService : IHostedService
 {
     public Task StartAsync(CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        while( !cancellationToken.IsCancellationRequested )
+        {
+
+        }
+        return Task.CompletedTask;
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
