@@ -1,6 +1,4 @@
 magnet:?xt=urn:btih:L7BXUQXGOX43UA7ZBUSSY5ZS5XKPKRIQ
-http://j92.ipdisk.co.kr:8000/list/HDD1/LibreOffice_7.3.5_Win_x64_helppack_ko.msi.torrent
-http://j92.ipdisk.co.kr:8000/list/HDD1/TWICETzuyu4K.zip
 
 
 magnet:?xt=urn:btih:PVEDT57K62R6SAOAUKPUZMZKTFL7L62C
